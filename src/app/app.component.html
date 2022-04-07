@@ -1,1 +1,3 @@
-<app-novaTransferencia></app-novaTransferencia>
+<app-novaTransferencia (aoTransferir)="transferir ($event)"></app-novaTransferencia>
+
+<app-extrato [transferencias]="transferencias"></app-extrato>
